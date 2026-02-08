@@ -1,4 +1,4 @@
-import java.util.*;;
+import java.util.*;
 
 
 public class A_Table_with_Numbers {
@@ -6,8 +6,9 @@ public class A_Table_with_Numbers {
     public static void main(String[] args) {
         Scanner in =new Scanner(System.in);
         int t= in.nextInt();
-        Set<Integer> ls=new HashSet<>();
-        Set<Integer> hs=new HashSet<>();
+        while (t-->0) {
+          List<Integer> ls=new ArrayList<>();
+          List<Integer> hs=new ArrayList<>();
 
         int n=in.nextInt();
         int l = in.nextInt();
@@ -45,6 +46,8 @@ public class A_Table_with_Numbers {
         {
             ans+=ls_size;
         }
-            
+        System.out.println(ans);
+        }
+    in.close();        
     }
 }
