@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class B_Array {
+public class Main {
 
    
     static class FastScanner {
